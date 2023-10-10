@@ -1,0 +1,61 @@
+body {
+    background-color:#5d17ea;
+
+    margin-top: -10px;
+  }
+section{
+    /* padding: 80px 20px; */
+    justify-items: center;
+    align-items: center;
+    margin-left: 30%;
+}
+.sec1 h1{
+    color: yellow;
+    font-size: 30 ;
+    font-family: 'Roboto', sans-serif;
+}
+/* Style pour le conteneur du formulaire */
+.file-upload {
+    text-align: center;
+    align-items: center;
+    margin-left: 50px ;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    background-color: #f9f9f9;
+}
+
+/* Style pour l'étiquette du champ de fichier */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style pour le champ de fichier */
+#file-input {
+    display: none; /* Masquer le champ de fichier par défaut */
+}
+
+/* Style pour le bouton de soumission */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style pour le bouton de soumission au survol */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour le bouton de soumission lorsqu'il est désactivé */
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

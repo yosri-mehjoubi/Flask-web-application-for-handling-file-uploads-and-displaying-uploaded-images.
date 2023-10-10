@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/model.css') }}">
+    
+    <title>Document</title>
+
+</head>
+
+
+<body>
+
+    <div>
+   <header> 
+ <img src="\static\css\tchnocolabs_logo.jpeg" alt="yosri mehjoubi portfolio" class="logo">
+
+</header>
+</div>
+
+<section class="sec1">
+    <h1>  Upload you image and remove the object </h1>
+    <div class="file-upload">
+    <form action="/success" method="post" enctype="multipart/form-data">
+        <label for="file-input">Choisissez un fichier :</label>
+        <input type="file" id="file-input" name="file" accept=".jpg, .jpeg, .png" />
+        <button type="submit">Envoyer</button>
+    </form>
+</div>
+
+</section>
+</body>
+
+
+</html>
