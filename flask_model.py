@@ -3,8 +3,6 @@ import os
 
 import cv2 as cv
 import numpy as np
-import glob
-import matplotlib.pyplot as plt
 import random
 
 app = Flask(__name__)
