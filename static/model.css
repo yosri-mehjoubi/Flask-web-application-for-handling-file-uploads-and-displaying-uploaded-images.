@@ -1,18 +1,23 @@
-body {
-    background-color:#5d17ea;
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url("{{ url_for('static', filename='fonts/Gilroy-Regular.ttf') }}") format('ttf');
+}
 
+body {
+    font-family: 'Gilroy-Regular';
+    background-color:#5d17ea;
     margin-top: -10px;
   }
 section{
     /* padding: 80px 20px; */
     justify-items: center;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .sec1 h1{
-    color: yellow;
+    color: white;
     font-size: 30 ;
-    font-family: 'Roboto', sans-serif;
 }
 /* Style pour le conteneur du formulaire */
 .file-upload {
@@ -29,7 +34,6 @@ section{
 /* Style pour l'étiquette du champ de fichier */
 label {
     display: block;
-    font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -38,9 +42,16 @@ label {
     display: none; /* Masquer le champ de fichier par défaut */
 }
 
+.sec1 h1 {
+    color: white;
+    text-align: center;
+    font-size: 30;
+}
+
 /* Style pour le bouton de soumission */
 button {
-    background-color: #007bff;
+    font-family: 'Gilroy-Regular';
+    background-color: #5d17ea;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -51,7 +62,7 @@ button {
 
 /* Style pour le bouton de soumission au survol */
 button:hover {
-    background-color: #0056b3;
+    background-color: #ad91e3;
 }
 
 /* Style pour le bouton de soumission lorsqu'il est désactivé */
